@@ -14,8 +14,9 @@ const Layout = ({ children }) => {
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/80ce1556baa823542d47c0d313f1efdf1a5444e4b51595eb356535d39912955f?apiKey=ccf78d4ef6544615a01756b290b630ea&"
           alt="Background"
-          className="object-cover absolute inset-0 size-full"
+          className="object-cover absolute inset-0 w-auto max-h-[1474px]"
         />
+        <div className="relative z-10"></div>
         <Header />
         <main>{children}</main>
       </div>
