@@ -20,10 +20,10 @@ const Header = () => {
         <a href="#" className="grow my-auto">
           Home
         </a>
-        <a href="#" className="my-auto">
+        <a href="about" className="my-auto">
           About
         </a>
-        <a href="#" className="my-auto">
+        <a href="explore" className="my-auto">
           Explore
         </a>
         <a href="#" className="flex-auto my-auto">
