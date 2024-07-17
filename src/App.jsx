@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import About from './pages/About';
 import BragaStreet from './pages/BragaStreet';
 import Explore from './pages/Explore';
+import Redeem from './pages/Redeem';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/bragaStreet" element={<BragaStreet />} />
         <Route path="/explore" element={<Explore />} />
+        <Route path="/redeem" element={<Redeem />} />
       </Routes>
     </Router>
   );
