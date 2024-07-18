@@ -1,7 +1,9 @@
-import React from 'react'; 
-import Header from '../BragaStreet/Header';
-import MainContent from '../BragaStreet/MainContent';
-import Footer from '../BragaStreet/Footer';
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import Header from '../Frame/Header';
+import MainContent from '../Frame/MainContent';
+import Footer from '../Frame/Footer';
 
 function BragaStreet() {
   return (
@@ -11,6 +13,6 @@ function BragaStreet() {
       <Footer />
     </div>
   );
-} 
+}
 
 export default BragaStreet;

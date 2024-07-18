@@ -7,7 +7,10 @@ import ProfileIcon from './ProfileIcon';
 
 const Header = () => {
   return (
-    <header className="flex relative gap-5 justify-between items-center w-full max-md:flex-wrap max-md:max-w-full">
+    <header
+      className="flex relative gap-5 justify-between items-center w-full max-md:flex-wrap max-md:max-w-full"
+      style={{ backgroundColor: '#DBD5D5' }}
+    >
       <div className="flex gap-3.5 self-stretch font-medium whitespace-nowrap">
         <div className="justify-center items-center px-2.5 text-3xl text-black bg-white h-[46px] rounded-[100px] w-[46px]">
           B.
@@ -17,16 +20,16 @@ const Header = () => {
         </div>
       </div>
       <nav className="flex gap-5 self-stretch my-auto text-2xl font-semibold text-white max-md:flex-wrap max-md:max-w-full">
-        <a href="#" className="grow my-auto">
+        <a href="home" className="grow my-auto">
           Home
         </a>
-        <a href="#" className="my-auto">
+        <a href="about" className="my-auto">
           About
         </a>
-        <a href="#" className="my-auto">
+        <a href="explore" className="my-auto">
           Explore
         </a>
-        <a href="#" className="flex-auto my-auto">
+        <a href="redeem" className="flex-auto my-auto">
           Point Redeem
         </a>
       </nav>
