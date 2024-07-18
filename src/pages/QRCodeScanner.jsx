@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Header from '../QRCodeScanner/Header';
-import QRCodeImage from '../QRCodeScanner/QRCodeImage';
-import ScanButton from '../QRCodeScanner/ScanButton';
+import Header from '../QRCode/Header';
+import QRCodeImage from '../QRCode/QRCodeImage';
+import ScanButton from '../QRCode/ScanButton';
 
 function QRCodeScanner() {
   return (
