@@ -11,6 +11,7 @@ import BragaStreet from './pages/BragaStreet';
 import Explore from './pages/Explore';
 import Redeem from './pages/Redeem';
 import GrayArtGallery from './pages/GrayArtGallery';
+import QRCodeScanner from './pages/QRCodeScanner';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/explore" element={<Explore />} />
         <Route path="/redeem" element={<Redeem />} />
         <Route path="/grayArtGallery" element={<GrayArtGallery />} />
+        <Route path="/QRCodeScanner" element={<QRCodeScanner />} />
       </Routes>
     </Router>
   );
