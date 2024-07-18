@@ -12,6 +12,8 @@ import Explore from './pages/Explore';
 import Redeem from './pages/Redeem';
 import GrayArtGallery from './pages/GrayArtGallery';
 import QRCodeScanner from './pages/QRCodeScanner';
+import WelcomeScreen from './pages/WelcomeScreen';
+import OrchidForest from './pages/OrchidForest';
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/redeem" element={<Redeem />} />
         <Route path="/grayArtGallery" element={<GrayArtGallery />} />
         <Route path="/QRCodeScanner" element={<QRCodeScanner />} />
+        <Route path="/welcomeScreen" element={<WelcomeScreen />} />
+        <Route path="/orchidForest" element={<OrchidForest />} />
       </Routes>
     </Router>
   );
