@@ -10,6 +10,7 @@ import About from './pages/About';
 import BragaStreet from './pages/BragaStreet';
 import Explore from './pages/Explore';
 import Redeem from './pages/Redeem';
+import GrayArtGallery from './pages/GrayArtGallery';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/bragaStreet" element={<BragaStreet />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/redeem" element={<Redeem />} />
+        <Route path="/grayArtGallery" element={<GrayArtGallery />} />
       </Routes>
     </Router>
   );
