@@ -14,7 +14,7 @@ import GrayArtGallery from './pages/GrayArtGallery';
 import QRCodeScanner from './pages/QRCodeScanner';
 import WelcomeScreen from './pages/WelcomeScreen';
 import OrchidForest from './pages/OrchidForest';
-
+import MuseumCard from './pages/MuseumCard';
 const App = () => {
   return (
     <Router>
@@ -28,6 +28,7 @@ const App = () => {
         <Route path="/QRCodeScanner" element={<QRCodeScanner />} />
         <Route path="/welcomeScreen" element={<WelcomeScreen />} />
         <Route path="/orchidForest" element={<OrchidForest />} />
+        <Route path="/museumCard" element={<MuseumCard />} />
       </Routes>
     </Router>
   );
