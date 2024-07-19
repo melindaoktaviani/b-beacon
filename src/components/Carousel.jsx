@@ -5,7 +5,7 @@ import React from 'react';
 const Carousel = () => {
   return (
     <div className="flex relative gap-1 self-center mt-72 max-md:mt-10">
-      {[1, 2, 3].map((index) => (
+      {[].map((index) => (
         <img
           key={index}
           loading="lazy"
