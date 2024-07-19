@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carousel from './Carousel';
 import SearchIcon from './SearchIcon';
 import ProfileIcon from './ProfileIcon';
@@ -20,18 +21,18 @@ const Header = () => {
         </div>
       </div>
       <nav className="flex gap-5 self-stretch my-auto text-2xl font-semibold text-white max-md:flex-wrap max-md:max-w-full">
-        <a href="home" className="grow my-auto">
+        <Link to="/home" className="grow my-auto">
           Home
-        </a>
-        <a href="about" className="my-auto">
+        </Link>
+        <Link to="/about" className="my-auto">
           About
-        </a>
-        <a href="explore" className="my-auto">
+        </Link>
+        <Link to="/explore" className="my-auto">
           Explore
-        </a>
-        <a href="redeem" className="flex-auto my-auto">
+        </Link>
+        <Link to="/redeem" className="flex-auto my-auto">
           Point Redeem
-        </a>
+        </Link>
       </nav>
       <div className="flex gap-5 items-start self-stretch my-auto">
         <div className="flex flex-col grow shrink-0 justify-center items-end px-16 py-2.5 rounded-3xl border border-gray-200 border-solid shadow-sm basis-0 bg-white bg-opacity-50 w-fit max-md:px-5">
