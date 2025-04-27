@@ -2,7 +2,7 @@
 
 ini merupakan website untuk mengexplore wisata yang ada di bandung dengan cara yg menarik
 
-## Screenshots
+## B-beacon
 
 ![App Screenshot](./src/assets/b-beacon.png)
 
